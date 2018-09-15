@@ -1,3 +1,18 @@
-<p>
-  nace works!
-</p>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Code</th>
+      <th scope="col">Name</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of Model;index as sayi">
+      <th scope="row">{{sayi+1}}</th>
+      <td>{{item.code}}</td>
+      <td>{{item.name}}</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
