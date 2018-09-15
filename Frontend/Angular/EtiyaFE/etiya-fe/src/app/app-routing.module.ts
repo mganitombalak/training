@@ -5,6 +5,10 @@ const routes: Routes = [
     {
         path: 'company',
         loadChildren: './modules/company/company.module#CompanyModule'
+    },
+    {
+        path: 'nace',
+        loadChildren: './modules/nace/nace.module#NaceModule'
     }
 ];
 @NgModule({
