@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.ykb"></context:component-scan>
+    <context:property-placeholder location="classpath:settings.properties"></context:property-placeholder>
+    <!--<bean id="cbo" class="com.ykb.MyCompexBusinessObject" scope="prototype">-->
+    <!--&lt;!&ndash;<constructor-arg ref="oraLogger"></constructor-arg>&ndash;&gt;-->
+    <!--<property name="logger" ref="oraLogger"></property>-->
+    <!--<property name="connectionString" value="${myapp.connectionString}"></property>-->
+    <!--</bean>-->
+    <!--<bean id="oraLogger" class="com.ykb.OracleLogger" init-method="init" destroy-method="destroy"></bean>-->
+    <!--<bean id="elasticLogger" class="com.ykb.ElasticLogger"></bean>-->
+</beans>
