@@ -8,38 +8,19 @@
     <title>Category Management</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">F</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/">Dashboard <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="/category">Category</a>
-            <a class="nav-item nav-link" href="#">Producer</a>
-            <a class="nav-item nav-link" href="#">Product</a>
-            <a class="nav-item nav-link" href="#">Stock</a>
-            <a class="nav-item nav-link" href="#">Customer</a>
-            <a class="nav-item nav-link" href="#">Orders</a>
-        </div>
-    </div>
-</nav>
-
+<div th:replace="fragments/header :: header"></div>
 <table class="table table-striped">
     <thead>
     <th scope="col">ID</th>
     <th scope="col">Name</th>
     </thead>
     <tbody>
-<tr th:each="category:${categories}" scope="row">
-    <td th:text="${category.Id}"></td>
-    <td th:text="${category.Name}"></td>
-</tr>
+    <tr th:each="category:${categories}" scope="row">
+        <td th:text="${category.Id}"></td>
+        <td th:text="${category.Name}"></td>
+    </tr>
     </tbody>
 </table>
-<script type="text/javascript" src="/webjars/jquery/3.3.1-1/jquery.min.js"></script>
-<script type="text/javascript" src="/webjars/popper.js"></script>
-<script type="text/javascript" src="/webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<div th:replace="fragments/footer :: footer"></div>
 </body>
 </html>
