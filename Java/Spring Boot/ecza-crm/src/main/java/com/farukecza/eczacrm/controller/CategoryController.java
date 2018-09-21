@@ -11,5 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CategoryController extends BaseController<CategoryService, Category>{
     public CategoryController() {
         this.viewBase="category";
+        this.type=Category.class;
     }
 }

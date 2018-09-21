@@ -1,5 +1,6 @@
 package com.farukecza.eczacrm.controller;
 
+import com.farukecza.eczacrm.Common;
 import com.farukecza.eczacrm.service.ServiceBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
@@ -12,6 +13,7 @@ public abstract class BaseController<T extends ServiceBase,P> {
     @Autowired
     private T service;
     protected String viewBase;
+    protected Class<P> type;
 
     @GetMapping("")
     public String index(Model model) {
@@ -20,10 +22,10 @@ public abstract class BaseController<T extends ServiceBase,P> {
     }
 
     @RequestMapping(value= {"/createorupdate","/createorupdate/{id}"},method = RequestMethod.GET)
-    public String saveView(@PathVariable(required = false) Integer id, Model model) {
+    public String saveView(@PathVariable(required = false) Integer id, Model model) throws IllegalAccessException, InstantiationException {
         model.addAttribute(viewBase,
-                id == null ?
-                        new Object():
+                (id == null) ?
+                        type.newInstance():
                         service.findById(id));
         return viewBase+"/upsert";
     }

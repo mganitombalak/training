@@ -10,5 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ProducerController extends BaseController<ProducerService, Producer> {
     public ProducerController() {
         this.viewBase="producer";
+        this.type=Producer.class;
     }
 }
