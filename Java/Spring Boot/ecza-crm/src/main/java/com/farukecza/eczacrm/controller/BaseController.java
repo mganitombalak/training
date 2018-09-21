@@ -2,13 +2,11 @@ package com.farukecza.eczacrm.controller;
 
 import com.farukecza.eczacrm.service.ServiceBase;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-@Controller
 public abstract class BaseController<T extends ServiceBase,P> {
 
     @Autowired
@@ -31,20 +29,20 @@ public abstract class BaseController<T extends ServiceBase,P> {
     }
 
     @RequestMapping(path = "/save", method = RequestMethod.POST)
-    public String save(@ModelAttribute T entity) {
+    public String save(@ModelAttribute P entity) {
         service.save(entity);
         return "redirect:/"+viewBase;
     }
 
     @GetMapping(path = "/delete/{id}")
     public String delete(@PathVariable("id") int id,Model model) {
-        Optional<T> c = service.findById(id);
+        Optional<P> c = service.findById(id);
         c.ifPresent(entity->model.addAttribute(viewBase, entity));
         return viewBase+"/info";
     }
 
     @PostMapping(path = "/delete")
-    public String deleteConfirmed(@ModelAttribute T c) {
+    public String deleteConfirmed(@ModelAttribute P c) {
         service.delete(c);
         return "redirect:/"+viewBase;
     }

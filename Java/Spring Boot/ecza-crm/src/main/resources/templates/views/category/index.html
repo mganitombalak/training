@@ -17,12 +17,12 @@
     <th scope="col">Action</th>
     </thead>
     <tbody>
-    <tr th:each="category:${categories}" scope="row">
-        <td th:text="${category.Id}"></td>
-        <td th:text="${category.Name}"></td>
+    <tr th:each="c:${category}" scope="row">
+        <td th:text="${c.Id}"></td>
+        <td th:text="${c.Name}"></td>
         <td>
-            <a th:href="@{'/category/createorupdate/'+${category.Id}}" class="btn btn-success">Edit</a>
-            <a th:href="@{'/category/delete/'+${category.Id}}" class="btn btn-danger">Delete</a>
+            <a th:href="@{'/category/createorupdate/'+${c.Id}}" class="btn btn-success">Edit</a>
+            <a th:href="@{'/category/delete/'+${c.Id}}" class="btn btn-danger">Delete</a>
         </td>
     </tr>
     </tbody>
