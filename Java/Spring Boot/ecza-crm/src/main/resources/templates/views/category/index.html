@@ -9,15 +9,21 @@
 </head>
 <body>
 <div th:replace="fragments/header :: header"></div>
+<div th:replace="fragments/actionToolbar::actionToolbar" th:with="url=${'/category/create'}"></div>
 <table class="table table-striped">
     <thead>
     <th scope="col">ID</th>
     <th scope="col">Name</th>
+    <th scope="col">Action</th>
     </thead>
     <tbody>
     <tr th:each="category:${categories}" scope="row">
         <td th:text="${category.Id}"></td>
         <td th:text="${category.Name}"></td>
+        <td>
+            <a th:href="@{'/category/createorupdate/'+${category.Id}}" class="btn btn-success">Edit</a>
+            <a th:href="@{'/category/delete/'+${category.Id}}" class="btn btn-danger">Delete</a>
+        </td>
     </tr>
     </tbody>
 </table>

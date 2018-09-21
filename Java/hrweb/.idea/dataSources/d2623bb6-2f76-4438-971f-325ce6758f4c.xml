@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="jdbc:h2:tcp://localhost/~/test">
+  <database-model serializer="dbm" rdbms="H2" format-version="4.11">
+    <root id="1">
+      <ServerVersion>1.4.196</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="TEST">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="5" parent="4" name="CARS"/>
+    <table id="6" parent="4" name="EMPLOYEE"/>
+    <column id="7" parent="5" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_C260C734_3022_4F75_AF38_0A8AB479B8A7)</DefaultExpression>
+    </column>
+    <column id="8" parent="5" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|12s</DataType>
+    </column>
+    <column id="9" parent="5" name="PRICE">
+      <Position>3</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <index id="10" parent="5" name="PRIMARY_KEY_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="11" parent="5" name="CONSTRAINT_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="12" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_69738440_203D_4AD0_B188_5239A931DF1B)</DefaultExpression>
+    </column>
+    <column id="13" parent="6" name="FIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|12s</DataType>
+    </column>
+    <column id="14" parent="6" name="LASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(150)|12s</DataType>
+    </column>
+    <column id="15" parent="6" name="TITLE">
+      <Position>4</Position>
+      <DataType>VARCHAR(150)|12s</DataType>
+    </column>
+    <column id="16" parent="6" name="SALARY">
+      <Position>5</Position>
+      <DataType>INTEGER(10)|4s</DataType>
+    </column>
+    <index id="17" parent="6" name="PRIMARY_KEY_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="18" parent="6" name="CONSTRAINT_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,5 @@
+#
+#Wed Aug 29 15:26:29 EET 2018
+com.ykb.dao.EmployeeDAOImpl=org.springframework.stereotype.Component
+com.ykb.controllers.HomeController=org.springframework.stereotype.Component
+com.ykb.data.entity.Employee=javax.persistence.Entity,javax.persistence.Table

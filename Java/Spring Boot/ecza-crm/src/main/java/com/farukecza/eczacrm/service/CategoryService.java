@@ -22,4 +22,19 @@ public class CategoryService implements ServiceBase<Category>{
     public Optional<Category> findById(int id) {
         return categoryRepository.findById(id);
     }
+
+    @Override
+    public Category save(Category entity) {
+        return categoryRepository.save(entity);
+    }
+
+    @Override
+    public void deleteById(int id) {
+        categoryRepository.deleteById(id);
+    }
+
+    @Override
+    public void delete(Category entity) {
+        categoryRepository.delete(entity);
+    }
 }

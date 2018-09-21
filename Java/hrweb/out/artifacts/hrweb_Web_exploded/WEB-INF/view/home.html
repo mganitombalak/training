@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<select>
+    <option  th:each="e:${#themes}" th:value="${#e.getFirstName}" th:text="${#e.getFirstName}"></option>
+</select>
+</body>
+</html>
