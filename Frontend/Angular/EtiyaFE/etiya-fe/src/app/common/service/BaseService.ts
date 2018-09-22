@@ -1,28 +1,48 @@
 import { GlobalSettingsService } from '../../services/global-settings.service';
+import { ReturnResult } from '../entity/ReturnResult';
+import { isNullOrUndefined } from 'util';
+import { ajaxGet, AjaxResponse } from 'rxjs/internal/observable/dom/AjaxObservable';
+import { Observable, pipe,of } from 'rxjs';
+import { retry, catchError } from 'rxjs/internal/operators';
 
 export class BaseService<T> {
 
+  private readonly emptyResult: ReturnResult<T> =
+    {
+      resultType: 1,
+      resultValue: null,
+      totalRecordCount: 0,
+      requestContinuation: null,
+      humanReadableMessage: ['Oops']
+    };
   protected controller: string;
-
   constructor(protected globalSettings: GlobalSettingsService) { }
 
-  getAll(type: number): Array<any> {
+  Read(page?: number,
+    requestContinutation?: string,
+    limit?: number): Observable<ReturnResult<T>> {
+    const url = this.globalSettings.ApiBaseURL +
+      this.controller + '/?' +
+      (isNullOrUndefined(page) ? '' : 'p=' + page + '&') +
+      (isNullOrUndefined(requestContinutation) ?
+        '' :
+        'rc=' + requestContinutation + '&') +
+      (isNullOrUndefined(limit) ? '' : 'l=' + limit);
 
-    if (type === 1) {
-      return [
-        { id: 1, name: 'Etiya', title: 'Etiya Corp' },
-        { id: 2, name: 'AerotiveLabs', title: 'AerotiveLabs Corp' },
-        { id: 3, name: 'Arcelik', title: 'Arcelik Corp' },
-        { id: 4, name: 'Aselsan', title: 'Aselsan Corp' },
-      ];
-    } else if (type === 2) {
-      return [
-        { code: '234', name: 'A Corp' },
-        { code: '345', name: 'B Corp' },
-        { code: '252', name: 'C Corp' },
-        { code: '678', name: 'D Corp' },
-      ];
-    }
+    return new Observable<ReturnResult<T>>(o => {
+      ajaxGet(url)
+        .pipe(retry(3),
+          catchError((e, v) => {
+            o.error(e);
+            o.complete();
+            return of(this.emptyResult);
+          }))
+        .subscribe(
+          (ajaxRes: AjaxResponse) => o.next(ajaxRes.response as ReturnResult<T>),
+          e => o.error(e),
+          () => o.complete());
+
+    });
   }
   getById(Id: number) {
     console.log('entity getbyid request');

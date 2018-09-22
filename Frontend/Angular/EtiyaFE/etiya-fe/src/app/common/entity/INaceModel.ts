@@ -1,4 +1,5 @@
 export interface INaceModel {
-    code: string;
-    name:string;
+    id: string;
+    code: Number;
+    definition: string;
 }

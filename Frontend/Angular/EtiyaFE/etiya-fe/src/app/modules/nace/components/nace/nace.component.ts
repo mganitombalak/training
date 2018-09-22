@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NaceService } from '../../services/nace.service';
 import { INaceModel } from '../../../../common/entity/INaceModel';
+import { ReturnResult } from '../../../../common/entity/ReturnResult';
 
 @Component({
   selector: 'app-nace',
@@ -9,9 +10,14 @@ import { INaceModel } from '../../../../common/entity/INaceModel';
 })
 export class NaceComponent implements OnInit {
   constructor(private naceService: NaceService) { }
-  Model: INaceModel[];
+  Model: ReturnResult<INaceModel>;
   ngOnInit() {
-    this.Model = this.naceService.getAll(2);
+    this.naceService.Read().subscribe(
+      (result:ReturnResult<INaceModel>) =>{
+        this.Model=result;
+      },
+      e=>console.log(e)
+    );
   }
 
 }
