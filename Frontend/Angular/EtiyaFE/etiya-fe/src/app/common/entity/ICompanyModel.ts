@@ -1,5 +1,9 @@
 export interface ICompanyModel {
-    id: number;
+    id: string;
     name: string;
-    title:string;
+    title: string;
+    dangerLevel: number;
+    address: string;
+    provience: string;
+    city: string;
 }

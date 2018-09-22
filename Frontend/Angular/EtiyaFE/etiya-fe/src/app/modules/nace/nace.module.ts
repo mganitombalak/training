@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
 import { NaceRoutingModule } from './nace-routing.module';
 import { NaceComponent } from './components/nace/nace.component';
 import { NaceService } from './services/nace.service';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     NaceRoutingModule
   ],
   providers: [NaceService],

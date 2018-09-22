@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
 import { CompanyRoutingModule } from './company-routing.module';
 import { CompanyComponent } from './components/company/company.component';
 import { CompanyService } from './services/company.service';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     CompanyRoutingModule
   ],
   providers:[CompanyService],

@@ -11,13 +11,16 @@ import { ReturnResult } from '../../../../common/entity/ReturnResult';
 export class NaceComponent implements OnInit {
   constructor(private naceService: NaceService) { }
   Model: ReturnResult<INaceModel>;
+  ModalTitle:string;
   ngOnInit() {
     this.naceService.Read().subscribe(
       (result:ReturnResult<INaceModel>) =>{
         this.Model=result;
       },
-      e=>console.log(e)
+      e=>console.log(e),
+      ()=>console.log("completed")
     );
+    this.ModalTitle="Nace Ekle";
   }
 
 }

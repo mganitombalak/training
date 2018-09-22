@@ -11,7 +11,7 @@ export class CompanyComponent implements OnInit {
   Model: Array<ICompanyModel>;
   constructor(public companyService: CompanyService) { }
   ngOnInit() {
-    this.Model = this.companyService.getAll(1);
+    
   }
   onEdit(name:string) {
     console.log(name + " edited.");
