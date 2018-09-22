@@ -1,4 +1,4 @@
-<app-modal [ModalId]="'naceModal'" [ModalTitle]="ModalTitle"></app-modal>
+<app-modal [ModalId]="'naceModal'" [ModalTitle]="ModalTitle" [ModalContentComponent]="ModalType"></app-modal>
 <button class="btn btn-danger" data-toggle="modal" data-target="#naceModal">Modal</button>
 <table class="table table-hover">
   <thead>
@@ -14,7 +14,11 @@
       <th scope="row">{{sayi+1}}</th>
       <td>{{item.code}}</td>
       <td>{{item.definition}}</td>
-      <td></td>
+      <td>
+        <a href="" class="text-danger" data-toggle="modal" data-target="#naceModal" data-placement="top" title="Edit" (click)="onEdit(item)">
+          Edit
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
