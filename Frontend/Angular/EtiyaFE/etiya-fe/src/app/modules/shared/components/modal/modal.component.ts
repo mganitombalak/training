@@ -11,7 +11,7 @@ export class ModalComponent implements OnInit, OnChanges {
 
   @Input('ModalId') ModalId: string;
   @Input('ModalTitle') ModalTitle: string;
-  @Input('ModalContentComponent') ModalContentComponent: ModalContentComponent;
+  @Input('ModalContentComponent') ModalContentComponent: ModalCont~entComponent;
   @ViewChild(ModalContentHostDirective) ModalContentHost: ModalContentHostDirective
 
 
