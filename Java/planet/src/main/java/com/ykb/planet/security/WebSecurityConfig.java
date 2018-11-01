@@ -46,7 +46,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/login")
+                .loginPage("/login"
                 .defaultSuccessUrl("/")
                 .failureUrl("/login?error=true")
                 .and()
@@ -55,7 +55,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.
         auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
     }
 

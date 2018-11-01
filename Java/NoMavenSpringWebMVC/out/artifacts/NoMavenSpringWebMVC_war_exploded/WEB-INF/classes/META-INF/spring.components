@@ -1,6 +1,0 @@
-#
-#Wed Sep 19 16:36:38 EET 2018
-com.ykb.controllers.HomeController=org.springframework.stereotype.Component
-com.ykb.repository.DepartmentRepository=org.springframework.stereotype.Component
-com.ykb.entity.Department=javax.persistence.Entity,javax.persistence.Table
-com.ykb.controllers.SecondController=org.springframework.stereotype.Component

@@ -1,0 +1,3 @@
+SQILLS
+
+Olaylar olaylar

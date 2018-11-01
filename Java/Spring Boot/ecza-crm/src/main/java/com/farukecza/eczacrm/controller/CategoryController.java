@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/category")
-public class CategoryController extends BaseController<CategoryService, Category>{
+public class CategoryController extends BaseController<CategoryService, Category> {
     public CategoryController() {
-        this.viewBase="category";
-        this.type=Category.class;
+        this.viewBase = "category";
+        this.type = Category.class;
     }
 }

@@ -1,21 +1,19 @@
 version: "3"
 
-services: 
-  s3postgres: 
-    image: postgres
-    networks: 
-      - sqills
-    ports: 
-      - "5432:5432"
-    environment: 
-      - POSTGRES_PASSWORD=mypasswd
-  s3drupal: 
-    build:
-      context: .
-    image: compose_s3drupal:latest
+services:
+  mysite:
+    image: drupal:latest
     networks:
       - sqills
     ports:
       - "80:80"
+  mydb:
+    image: postgres
+    networks :
+     - sqills
+    ports: 
+      - "5432:5432"
+    environment: 
+      - POSTGRES_PASSWORD=mypasswd
 networks:
   sqills:
