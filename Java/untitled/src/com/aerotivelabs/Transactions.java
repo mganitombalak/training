@@ -2,6 +2,7 @@ package com.aerotivelabs;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 import static java.util.stream.Collectors.*;
 
 public class Transactions {
@@ -14,10 +15,11 @@ public class Transactions {
         }).collect(Collectors.toList());
 
         Map<String, List<String>> simplfied = validated.parallelStream()
-                .collect(groupingBy((StringTokenizer r) -> r.nextToken() + r.nextToken() + r.nextToken(), mapping(r -> {
-                    StringTokenizer t = r;
-                    return t.nextToken() + "," + t.nextToken();
-                }, toList())));
+                .collect(groupingBy((StringTokenizer r) -> r.nextToken() + r.nextToken() + r.nextToken(),
+                        mapping(r -> {
+                            StringTokenizer t = r;
+                            return t.nextToken() + "," + t.nextToken();
+                        }, toList())));
 
         List<StringTokenizer> withTotals = simplfied.entrySet().stream().map(r -> {
             List<String> values = r.getValue();

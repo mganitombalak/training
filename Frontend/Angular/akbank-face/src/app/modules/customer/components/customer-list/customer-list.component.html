@@ -1,0 +1,25 @@
+<app-ak-modal [ModalId]="'customerModal'" [ModalTitle]="ModalTitle" [ModalContent]="ModelContent"></app-ak-modal>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Title</th>
+      <th scope="col">Address</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of DataModel;index as RowNumber">
+      <th scope="row">{{RowNumber+1}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.title}}</td>
+      <td>{{item.address}}</td>
+      <td>
+        <button class="btn btn-warning" data-toggle="modal" data-target="#customerModal" (click)="onEdit(item)">Edit</button>&nbsp;
+        <button class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.deps.json
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.dll
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.pdb
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.csprojAssemblyReference.cache
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.AssemblyInfoInputs.cache
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.AssemblyInfo.cs
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.dll
+/Users/mganitombalak/GitHub/training/NETCore/Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.pdb

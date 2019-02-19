@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="com.jetbrains.rider.android.RiderAndroidMiscFileCreationComponent">
+    <option name="ENSURE_MISC_FILE_EXISTS" value="true" />
+  </component>
+</project>

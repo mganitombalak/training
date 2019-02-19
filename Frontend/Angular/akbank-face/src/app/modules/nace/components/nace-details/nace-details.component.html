@@ -1,0 +1,14 @@
+<div *ngIf="Model">
+<form (ngSubmit)="onSubmit()" #naceForm="ngForm">
+  <div class="form-group">
+    <label for="code">Code</label>
+    <input type="text" name="code" class="form-control"  placeholder="Enter code" [(ngModel)]="Model.code">
+    <small class="form-text text-muted">Please enter a code</small>
+  </div>
+  <div class="form-group">
+    <label for="desc">Description</label>
+    <textarea name="desc" class="form-control" [(ngModel)]="Model.description"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
