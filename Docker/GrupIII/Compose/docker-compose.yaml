@@ -1,0 +1,33 @@
+version: "3.7"
+
+services: 
+  webserver1:
+    image: httpd
+    build:
+      -
+    networks: 
+      - sqills
+    volumes: 
+      - ../server1:/usr/local/apache2/htdocs
+
+  webserver2:
+    image: httpd
+    networks: 
+      - sqills
+    volumes: 
+      - ../server2:/usr/local/apache2/htdocs
+
+  loadbalancer:
+    image: nginx
+    networks: 
+      - sqills
+    ports:
+      - 80:80
+    volumes: 
+      - ../nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on: 
+      - webserver1
+      - webserver2
+
+networks:
+  sqills:

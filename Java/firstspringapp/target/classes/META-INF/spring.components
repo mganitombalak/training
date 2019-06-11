@@ -1,7 +1,0 @@
-#
-#Wed Sep 19 10:07:35 EET 2018
-com.ykb.ElasticLogger=org.springframework.stereotype.Component
-com.ykb.Config=org.springframework.stereotype.Component
-com.ykb.OracleLogger=org.springframework.stereotype.Component
-com.ykb.MyCompexBusinessObject=org.springframework.stereotype.Component
-com.ykb.AppConfig=org.springframework.stereotype.Component
