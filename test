@@ -1,25 +1,78 @@
-package com.aerotivelabs;
+ protected readonly AerotiveDbContext currentDbcontext;
 
-import java.util.List;
-import java.util.stream.Collectors;
+        protected BaseRepository(AerotiveDbContext dbContext)
+        {
+            currentDbcontext = dbContext;
+        }
 
-public class DataManager<T extends IEntity> {
+        public ICollection<T> find(Expression<Func<T, bool>> filter = null, DataPagingOptions pagingOptions = null,
+            params string[] includes)
+        {
+            IQueryable<T> queryable = currentDbcontext.Set<T>();
+            if (includes.Any()) includes.ToList().ForEach(i => { queryable = queryable.Include(i); });
 
-    private List<T> data;
+            if (filter != null) queryable = queryable.Where(filter);
 
-    public DataManager(List<T> data) {
-        this.data = data;
-    }
+            if (pagingOptions?.PageSize.HasValue ?? pagingOptions.PageSize.GetValueOrDefault() > 0 &&
+                pagingOptions.PageNumber.GetValueOrDefault() > 0)
+                queryable = queryable
+                    .Skip(pagingOptions.PageNumber.GetValueOrDefault() * pagingOptions.PageSize.GetValueOrDefault())
+                    .Take(pagingOptions.PageSize.GetValueOrDefault());
 
-    public List<T> findAll(){
-        return data;
-    }
+            return queryable.ToList();
+        }
 
-    public List<T> findById(int Id){
-        return data.stream().filter(item->item.getId()==Id).collect(Collectors.toList());
-    }
 
-    public List<T> findyByKeyword(String keyword){
-        return data.stream().filter(item->item.toString().contains(keyword)).collect(Collectors.toList());
-    }
-}
+        public T findById(IdType Id)
+        {
+            return currentDbcontext.Set<T>().FirstOrDefault(e => e.Id.Equals(Id));
+        }
+
+        public T Create(T entity)
+        {
+            currentDbcontext.Set<T>().Add(entity);
+            entity.CreatedAt = ZonedDateTime.FromDateTimeOffset(DateTimeOffset.Now);
+            currentDbcontext.SaveChanges();
+            return entity;
+        }
+
+        public T Update(T entity)
+        {
+            currentDbcontext.Set<T>().Update(entity);
+            entity.UpdatedAt = ZonedDateTime.FromDateTimeOffset(DateTimeOffset.Now);
+            currentDbcontext.Entry(entity).Property(p => p.CreatedAt).IsModified = false;
+            currentDbcontext.SaveChanges();
+            return entity;
+        }
+
+        public void Delete(T entity)
+        {
+            currentDbcontext.Set<T>().Remove(entity);
+            entity.DeletedAt = ZonedDateTime.FromDateTimeOffset(DateTimeOffset.Now);
+            currentDbcontext.SaveChanges();
+        }
+
+        public void DeleteById(IdType Id)
+        {
+            currentDbcontext.Set<T>().Remove(findById(Id));
+            currentDbcontext.SaveChanges();
+        }
+
+        public void SoftDelete(IdType Id)
+        {
+            var item = findById(Id);
+            item.IsDeleted = true;
+            item.DeletedAt = ZonedDateTime.FromDateTimeOffset(DateTimeOffset.Now);
+            currentDbcontext.Set<T>().Update(item);
+            currentDbcontext.SaveChanges();
+        }
+
+        public bool Exist(IdType Id)
+        {
+            return currentDbcontext.Set<T>().Any(e => e.Id.Equals(Id) && !e.IsDeleted);
+        }
+
+        public int GetTotalRecordCount()
+        {
+            return currentDbcontext.Set<T>().Count(c => !c.IsDeleted);
+        }
