@@ -16,6 +16,6 @@ public class Category : IEntity<Guid>
     public bool IsActive { get; set; }
     public bool IsDeleted { get; set; }
     public ZonedDateTime CreatedAt { get; set; }
-    public ZonedDateTime? UpdateAt { get; set; }
+    public ZonedDateTime? UpdatedAt { get; set; }
     public ZonedDateTime? DeletedAt { get; set; }
 }

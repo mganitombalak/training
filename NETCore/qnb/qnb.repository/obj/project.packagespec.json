@@ -10,14 +10,18 @@
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netstandard2.0"
+      "netcoreapp2.2"
     ],
     "sources": {
       "http://localhost:8081/repository/nuget-group/": {}
     },
     "frameworks": {
-      "netstandard2.0": {
-        "projectReferences": {}
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj": {
+            "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -27,12 +31,12 @@
     }
   },
   "frameworks": {
-    "netstandard2.0": {
+    "netcoreapp2.2": {
       "dependencies": {
-        "NETStandard.Library": {
+        "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.3, )",
+          "version": "[2.2.0, )",
           "autoReferenced": true
         }
       },

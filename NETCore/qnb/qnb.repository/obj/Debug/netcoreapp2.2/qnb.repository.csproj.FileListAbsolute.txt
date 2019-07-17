@@ -1,0 +1,12 @@
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.deps.json
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.pdb
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.pdb
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.CopyComplete
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.pdb

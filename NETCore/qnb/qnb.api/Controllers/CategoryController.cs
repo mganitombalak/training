@@ -8,13 +8,19 @@ namespace qnb.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class CategoryController : ControllerBase
     {
+        private IBaseRepository<Category,Guid> repo;
+
+        public CategoryController(IBaseRepository<Category,Guid> catRepo)
+        {
+            repo = catRepo;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Category>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return repo.find(item=>!item.IsDeleted).ToList();
         }
 
         // GET api/values/5

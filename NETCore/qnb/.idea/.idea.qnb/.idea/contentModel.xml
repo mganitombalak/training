@@ -51,16 +51,21 @@
         <e p="QnbCoreDbContext.cs" t="Include" />
       </e>
       <e p="qnb.repository" t="IncludeRecursive">
+        <e p="Base" t="Include">
+          <e p="BaseRepository.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Class1.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
+            <e p="netcoreapp2.2" t="Include">
               <e p="qnb.repository.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="qnb.repository.csproj" t="IncludeRecursive" />
+        <e p="Repository" t="Include">
+          <e p="CategoryRepository.cs" t="Include" />
+        </e>
       </e>
       <e p="qnb.sln" t="IncludeFlat" />
     </e>

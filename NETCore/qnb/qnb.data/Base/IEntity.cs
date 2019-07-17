@@ -6,6 +6,6 @@ public interface IEntity<T>
     bool IsActive { get; set; }
     bool IsDeleted { get; set; }
     ZonedDateTime CreatedAt { get; set; }
-    ZonedDateTime? UpdateAt { get; set; }
+    ZonedDateTime? UpdatedAt { get; set; }
     ZonedDateTime? DeletedAt { get; set; }
 }

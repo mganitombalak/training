@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Design;
 
 public class QnbCoreDbContextFactory : IDesignTimeDbContextFactory<QnbCoreDbContext>
 {
-    internal static string ConnectionString = "Host=localhost;Database=QnbCore;Username=postgres;Password=P@ssw0rd";
+    internal static string ConnectionString = "Host=postgres;Database=QnbCore;Username=postgres;Password=P@ssw0rd";
     public QnbCoreDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<QnbCoreDbContext>();

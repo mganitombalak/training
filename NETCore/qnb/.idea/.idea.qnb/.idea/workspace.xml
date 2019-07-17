@@ -2,230 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac510b82-0eb7-49e0-948c-eabff33b3f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/facade/DoorSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/facade/Personel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/facade/PersonelWithSecurityFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/IMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/IStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/memento/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/observer/IClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/observer/IMessageCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/observer/MessageCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/observer/MessageClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/IStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/InternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/OrderDeliveryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ParcelExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ShipExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/threading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/threading/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Patterns/src/com/aerotivelabs/threading/Squared.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TempSample/.idea/.idea.TempSample/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TempSample/.idea/.idea.TempSample/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/DesignPatternSamples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/DieselEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/EngineFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/GasolineEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/MySingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/DieselEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/EngineFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/GasolineEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/MySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Patterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/Sqills.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Common.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/EntityManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Equipment$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Equipment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Inventory$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Inventory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/MenuItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Personel$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/out/production/Sqills/com/sqills/Personel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/Common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/EntityManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/Equipment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/MenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Sqills/src/com/sqills/Personel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/ApplicationConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Entity/Category.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Entity/SubCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Migrations/20181229104323_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Migrations/20181229104323_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Migrations/ThiqahDataContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/Thiqah.Data.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/ThiqahDataContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netcoreapp2.2/Thiqah.Data.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netcoreapp2.2/Thiqah.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netcoreapp2.2/Thiqah.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netcoreapp2.2/Thiqah.Data.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netcoreapp2.2/Thiqah.Data.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/bin/Debug/netstandard2.0/Thiqah.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/Thiqah.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/Thiqah.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Debug/netstandard2.0/project.razor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Thiqah.Data.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Thiqah.Data.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Thiqah.Data.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/Thiqah.Data.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Data/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Category/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Category/Create.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Category/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Category/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Common/_TopNav.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Error.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Privacy.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/SubCategory.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/SubCategory.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Pages/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/Thiqah.Web.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/bin/Debug/netcoreapp2.2/Thiqah.Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Category/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Common/_TopNav.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/SubCategory.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/Thiqah.Web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Thiqah.Web.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Thiqah.Web.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/Thiqah.Web.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.Web/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thiqah.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/Base/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/Base/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/entity/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/entity/Application.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/entity/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/entity/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/qnb.repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/qnb.repository.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,13 +28,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <marker date="1563350715543" expanded="true" signature="6:150" ph="..." />
+                <marker date="1563350715543" expanded="true" signature="224:2587" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="351:413" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="515:825" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="864:967" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="1002:1229" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="1264:1584" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="1622:1825" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="1868:1992" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="2035:2306" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="2344:2452" ph="{...}" />
+                <marker date="1563350715543" expanded="true" signature="2494:2585" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+              <folding>
+                <marker date="1563351828035" expanded="true" signature="79:171" ph="{...}" />
+                <marker date="1563351828035" expanded="true" signature="157:169" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/qnb.data/entity/Application.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.data/Base/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.data/entity/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/qnb.api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/qnb.data/Base/IEntity.cs" />
+        <option value="$PROJECT_DIR$/qnb.data/entity/Application.cs" />
+        <option value="$PROJECT_DIR$/qnb.data/entity/Category.cs" />
+        <option value="$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -261,6 +109,40 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Base" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="entity" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Base" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -271,6 +153,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563280861651</updated>
       <workItem from="1563280868540" duration="176000" />
-      <workItem from="1563281657045" duration="684000" />
+      <workItem from="1563281657045" duration="2049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="860000" />
+    <option name="totallyTimeSpent" value="2225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,12 +232,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21788009" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21788009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32996973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32996973" />
@@ -413,6 +298,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.data/Base/IEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <marker date="1563351760032" expanded="true" signature="44:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.data/entity/Application.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <marker date="1563351797801" expanded="false" signature="6:74" ph="..." />
+            <marker date="1563351797801" expanded="true" signature="116:579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.data/entity/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <marker date="1563351808737" expanded="false" signature="6:108" ph="..." />
+            <marker date="1563351808737" expanded="true" signature="147:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <marker date="1563350715543" expanded="true" signature="6:150" ph="..." />
+            <marker date="1563350715543" expanded="true" signature="224:2587" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="351:413" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="515:825" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="864:967" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="1002:1229" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="1264:1584" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="1622:1825" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="1868:1992" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="2035:2306" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="2344:2452" ph="{...}" />
+            <marker date="1563350715543" expanded="true" signature="2494:2585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding>
+            <marker date="1563351828035" expanded="true" signature="79:171" ph="{...}" />
+            <marker date="1563351828035" expanded="true" signature="157:169" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

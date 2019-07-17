@@ -46,7 +46,7 @@ namespace qnb.data.Migrations
                     b.Property<string>("Name")
                         .HasMaxLength(32);
 
-                    b.Property<ZonedDateTime?>("UpdateAt");
+                    b.Property<ZonedDateTime?>("UpdatedAt");
 
                     b.HasKey("Id");
 
@@ -78,7 +78,7 @@ namespace qnb.data.Migrations
                     b.Property<string>("Name")
                         .HasMaxLength(32);
 
-                    b.Property<ZonedDateTime?>("UpdateAt");
+                    b.Property<ZonedDateTime?>("UpdatedAt");
 
                     b.HasKey("Id");
 
