@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mganitombalak/Github/training/TempSample/TempSample.csproj",
+    "projectName": "TempSample",
+    "projectPath": "/Users/mganitombalak/Github/training/TempSample/TempSample.csproj",
+    "outputPath": "/Users/mganitombalak/Github/training/TempSample/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "http://localhost:8081/repository/nuget-group/": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "System.Data.Common": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.6.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -2,95 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb4c8b4-fb59-4af1-9f02-8416896669e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/bridge/JavaQuestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/bridge/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/bridge/QuestionFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/bridge/QuestionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/decorator/ChineseFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/decorator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/decorator/FoodDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/decorator/NonVegetarianFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/decorator/VegetarianFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/facade/DoorSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/facade/Personel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/facade/PersonelWithSecurityFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/memento/IMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/memento/IStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/memento/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/memento/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/observer/IClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/observer/IMessageCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/observer/MessageCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/observer/MessageClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/ExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/IStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/InternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/OrderDeliveryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/ParcelExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy/ShipExternalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/AvaragePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/BasePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/BookingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/HighPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/IBookingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/IPriceStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/ISeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/LowPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/PriceStrategyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DesignPatternsForJava/src/com/aerotivelabs/strategy2/VeryHighPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/Deparment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/IEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/InventoryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/Personel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/ChineeseFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/FoodDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/NonVegeterianFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/VegeterianFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/EntityManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sqills/src/com/sqills/Personel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hrweb/hrweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Docker/Ubuntu/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Docker/Ubuntu/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJSF/IBTech/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJSF/IBTech/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJSF/IBTech/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJSF/IBTech/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/META-INF/spring.components" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/CacheManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/CacheManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/ElasticLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/ElasticLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/LocalCacheManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/LocalCacheManagerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/MainClassConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/MainClassConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/MyCompexBusinessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/MyCompexBusinessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/OracleLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/OracleLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/RedisCacheManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstspringapp/target/classes/com/ykb/RedisCacheManagerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generator/target/classes/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/../generator/target/classes/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/target/classes/META-INF/spring.components" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/dao/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/dao/EmployeeDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/dao/EmployeeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/dao/EmployeeDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/data/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hrweb/target/classes/com/ykb/data/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/DoorSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/PersonelWithSecurityFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IMessageCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/InternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/OrderDeliveryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ParcelExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ShipExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/threading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/threading/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aerotivelabs/threading/Squared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TempSample/.idea/.idea.TempSample/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TempSample/.idea/.idea.TempSample/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/DesignPatternSamples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/DieselEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/EngineFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/GasolineEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/MySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/DieselEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/EngineFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/GasolineEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/MySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/Sqills.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/EntityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Equipment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Inventory$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Personel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/out/production/Sqills/com/sqills/Personel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/EntityManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sqills/src/com/sqills/Personel.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,6 +97,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -134,20 +123,40 @@
         <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/NonVegeterianFood.java" />
         <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/ChineeseFood.java" />
         <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Personel.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/PersonelWithSecurityFacade.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/DoorSecurity.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IClient.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IMessageCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageClient.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IMemento.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IStatus.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/OrderState.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Memento.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ExternalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/InternalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ParcelExternalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ShipExternalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/factory/Personel.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/OrderDeliveryManager.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/threading/Squared.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/threading/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/aerotivelabs/threading/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -158,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,19 +201,32 @@
               <item name="aerotivelabs" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aerotivelabs" type="462c0819:PsiDirectoryNode" />
+              <item name="threading" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aerotivelabs.pattern.factory" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.aerotivelabs" />
     </key>
@@ -222,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Decorator-Pattern">
+  <component name="RunManager" selected="Application.Threading">
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.Main" />
       <module name="Patterns" />
@@ -239,8 +260,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Facade-Pattern" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.pattern.facade.Main" />
+      <module name="Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Observer-Pattern" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.pattern.observer.Main" />
+      <module name="Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strategy-Pattern" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.pattern.strategy.Main" />
+      <module name="Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Threading" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.threading.Main" />
+      <module name="Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Decorator-Pattern" />
+      <item itemvalue="Application.Strategy-Pattern" />
+      <item itemvalue="Application.Observer-Pattern" />
+      <item itemvalue="Application.Facade-Pattern" />
+      <item itemvalue="Application.Threading" />
       <item itemvalue="Application.ConsoleApp" />
     </list>
     <recent_temporary>
@@ -259,41 +312,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560236122194</updated>
-      <workItem from="1560236127765" duration="14221000" />
+      <workItem from="1560236127765" duration="24421000" />
+      <workItem from="1561921374973" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14221000" />
+    <option name="totallyTimeSpent" value="24437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14468865" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19466881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,18 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#GenerateApplicationData#0;class#Main#0" />
-            <element signature="method#GenerateMenuData#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/decorator/ChineeseFood.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -556,6 +598,317 @@
             <element signature="e#333#334#0" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Personel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/DoorSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/MessageClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IMessageCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/IClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/observer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/OrderState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/IMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/memento/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ShipExternalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ParcelExternalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/InternalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/ExternalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/factory/Personel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GenerateApplicationData#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/facade/PersonelWithSecurityFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/pattern/strategy/OrderDeliveryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/threading/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/threading/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/threading/Squared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>

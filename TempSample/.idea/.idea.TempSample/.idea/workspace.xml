@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e5b854-421d-41d6-b503-785eb86ece09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/facade/DoorSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/facade/Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/facade/PersonelWithSecurityFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/IMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/IStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/memento/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/observer/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/observer/IMessageCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/observer/MessageCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/observer/MessageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/IOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/InternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/OrderDeliveryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ParcelExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Patterns/src/com/aerotivelabs/pattern/strategy/ShipExternalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TempSample/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TempSample/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/DesignPatternSamples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/DieselEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/EngineFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/GasolineEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/MySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/out/production/DesignPatternSamples/com/aerotivelabs/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/DieselEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/EngineFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/GasolineEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/MySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Advanced Java/DesignPatternSamples/src/com/aerotivelabs/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/Sqills.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/EntityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Equipment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Inventory$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Personel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/out/production/Sqills/com/sqills/Personel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/EntityManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Sqills/src/com/sqills/Personel.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <marker date="1560325538247" expanded="true" signature="6:42" ph="..." />
+                <marker date="1560325538247" expanded="true" signature="64:174" ph="{...}" />
+                <marker date="1560325538247" expanded="true" signature="84:172" ph="{...}" />
+                <marker date="1560325538247" expanded="true" signature="130:166" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5e5b854-421d-41d6-b503-785eb86ece09" name="Default Changelist" comment="" />
+      <created>1560325061534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560325061534</updated>
+      <workItem from="1560325063805" duration="454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="454000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18857494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="NuGet" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.32969433" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1560325538247" expanded="true" signature="6:42" ph="..." />
+            <marker date="1560325538247" expanded="true" signature="64:174" ph="{...}" />
+            <marker date="1560325538247" expanded="true" signature="84:172" ph="{...}" />
+            <marker date="1560325538247" expanded="true" signature="130:166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

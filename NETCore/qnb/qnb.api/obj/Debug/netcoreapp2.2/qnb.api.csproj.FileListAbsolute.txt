@@ -1,0 +1,14 @@
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.deps.json
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.runtimeconfig.json
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.pdb
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.RazorAssemblyInfo.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.RazorAssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.RazorTargetAssemblyInfo.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.pdb

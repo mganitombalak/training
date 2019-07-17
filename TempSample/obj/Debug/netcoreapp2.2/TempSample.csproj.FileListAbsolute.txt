@@ -1,0 +1,11 @@
+/Users/mganitombalak/Github/training/TempSample/bin/Debug/netcoreapp2.2/TempSample.deps.json
+/Users/mganitombalak/Github/training/TempSample/bin/Debug/netcoreapp2.2/TempSample.runtimeconfig.json
+/Users/mganitombalak/Github/training/TempSample/bin/Debug/netcoreapp2.2/TempSample.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/TempSample/bin/Debug/netcoreapp2.2/TempSample.dll
+/Users/mganitombalak/Github/training/TempSample/bin/Debug/netcoreapp2.2/TempSample.pdb
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.dll
+/Users/mganitombalak/Github/training/TempSample/obj/Debug/netcoreapp2.2/TempSample.pdb
