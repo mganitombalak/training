@@ -1,0 +1,12 @@
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/bin/Release/netcoreapp2.2/qnb.data.deps.json
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/bin/Release/netcoreapp2.2/qnb.data.runtimeconfig.json
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/bin/Release/netcoreapp2.2/qnb.data.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/bin/Release/netcoreapp2.2/qnb.data.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/bin/Release/netcoreapp2.2/qnb.data.pdb
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/EFCoreNpgsqlNodaTime.cs
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.dll
+/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/Release/netcoreapp2.2/qnb.data.pdb

@@ -2,24 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac510b82-0eb7-49e0-948c-eabff33b3f83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Docker/GrupIII/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/GrupIII/nginx/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.qnb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/bin/Debug/netcoreapp2.2/qnb.repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/project.razor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnb.data/Base/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/Base/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/Debug/netcoreapp2.2/qnb.api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.api/obj/qnb.api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/bin/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnb.data/entity/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/entity/Application.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnb.data/entity/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/entity/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.data/obj/qnb.data.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/bin/Debug/netcoreapp2.2/qnb.repository.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.dll" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/Debug/netcoreapp2.2/qnb.repository.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.repository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.repository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/obj/qnb.repository.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qnb.repository/qnb.repository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/qnb.repository/qnb.repository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frond-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frond-end/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frond-end/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frond-end/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frond-end/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frond-end/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frond-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frond-end/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,38 +66,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-              <folding>
-                <marker date="1563350715543" expanded="true" signature="6:150" ph="..." />
-                <marker date="1563350715543" expanded="true" signature="224:2587" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="351:413" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="515:825" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="864:967" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="1002:1229" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="1264:1584" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="1622:1825" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="1868:1992" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="2035:2306" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="2344:2452" ph="{...}" />
-                <marker date="1563350715543" expanded="true" signature="2494:2585" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs">
+        <entry file="file://$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            <state relative-caret-position="152">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
-                <marker date="1563351828035" expanded="true" signature="79:171" ph="{...}" />
-                <marker date="1563351828035" expanded="true" signature="157:169" ph="{...}" />
+                <marker date="1563538070823" expanded="false" signature="6:146" ph="..." />
+                <marker date="1563538070823" expanded="true" signature="177:1217" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="284:1215" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="420:468" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="545:693" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="796:844" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="941:961" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="1073:1093" ph="{...}" />
+                <marker date="1563538070823" expanded="true" signature="1189:1209" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,16 +90,19 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/qnb.data/entity/Application.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/qnb.data/Base/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/qnb.data/entity/Category.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/qnb.api/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.data/entity/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.data/Base/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +112,9 @@
         <option value="$PROJECT_DIR$/qnb.data/entity/Application.cs" />
         <option value="$PROJECT_DIR$/qnb.data/entity/Category.cs" />
         <option value="$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs" />
+        <option value="$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs" />
+        <option value="$PROJECT_DIR$/qnb.api/appsettings.json" />
       </list>
     </option>
   </component>
@@ -100,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -112,42 +138,21 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.api" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Base" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.data" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="entity" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Base" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="qnb" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="qnb.repository" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="qnb.api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,6 +162,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -202,6 +208,33 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" singleton="false" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="webui" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="80" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,11 +248,12 @@
       <updated>1563280861651</updated>
       <workItem from="1563280868540" duration="176000" />
       <workItem from="1563281657045" duration="2049000" />
+      <workItem from="1563537623988" duration="1356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2225000" />
+    <option name="totallyTimeSpent" value="3581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,28 +268,28 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21788009" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22055675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32996973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32996973" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892932" weight="0.32996973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959636" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32996973" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" sideWeight="0.49946466" weight="0.32996973" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.501606" side_tool="true" weight="0.32996973" />
+      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.498394" weight="0.32996973" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,8 +311,56 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs" initialLine="24">
+            <startOffsets>
+              <option value="568" />
+            </startOffsets>
+            <endOffsets>
+              <option value="683" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs" initialLine="8">
+            <startOffsets>
+              <option value="358" />
+            </startOffsets>
+            <endOffsets>
+              <option value="427" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Dns.GetHostName()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Dns.GetHostAddresses()[0]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Dns.GetHostAddresses()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qnb.api/Program.cs">
@@ -301,13 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qnb.repository/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/qnb.data/Base/IEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -329,10 +405,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1563528910905" expanded="false" signature="6:516" ph="..." />
+            <marker date="1563528910905" expanded="true" signature="535:2423" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="562:2421" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="621:684" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="907:1804" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="1028:1207" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="1122:1191" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="1439:1717" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="1992:2415" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="2039:2116" ph="{...}" />
+            <marker date="1563528910905" expanded="true" signature="2133:2336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.data/QnbCoreDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <marker date="1563538391348" expanded="false" signature="6:80" ph="..." />
+            <marker date="1563538391348" expanded="true" signature="166:616" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="343:614" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="498:544" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="658:2351" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="741:753" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="946:1162" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="1108:1154" ph="{...}" />
+            <marker date="1563538391348" expanded="true" signature="1234:2349" ph="{...}" />
+            <marker date="1563538391348" expanded="false" signature="1306:1579" ph="Category" />
+            <marker date="1563538391348" expanded="false" signature="1589:2003" ph="Application" />
+            <marker date="1563538391348" expanded="true" signature="2076:2342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qnb.api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qnb.data/entity/Category.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="38">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <marker date="1563351808737" expanded="false" signature="6:108" ph="..." />
             <marker date="1563351808737" expanded="true" signature="147:577" ph="{...}" />
@@ -340,34 +478,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qnb.repository/Base/BaseRepository.cs">
+    <entry file="file://$PROJECT_DIR$/qnb.api/Controllers/CategoryController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="152">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
-            <marker date="1563350715543" expanded="true" signature="6:150" ph="..." />
-            <marker date="1563350715543" expanded="true" signature="224:2587" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="351:413" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="515:825" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="864:967" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="1002:1229" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="1264:1584" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="1622:1825" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="1868:1992" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="2035:2306" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="2344:2452" ph="{...}" />
-            <marker date="1563350715543" expanded="true" signature="2494:2585" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qnb.repository/Repository/CategoryRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-          <folding>
-            <marker date="1563351828035" expanded="true" signature="79:171" ph="{...}" />
-            <marker date="1563351828035" expanded="true" signature="157:169" ph="{...}" />
+            <marker date="1563538070823" expanded="false" signature="6:146" ph="..." />
+            <marker date="1563538070823" expanded="true" signature="177:1217" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="284:1215" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="420:468" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="545:693" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="796:844" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="941:961" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="1073:1093" ph="{...}" />
+            <marker date="1563538070823" expanded="true" signature="1189:1209" ph="{...}" />
           </folding>
         </state>
       </provider>

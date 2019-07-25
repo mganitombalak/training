@@ -8,7 +8,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="ValuesController.cs" t="Include" />
+          <e p="CategoryController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -38,6 +38,8 @@
           <e p="20190716135538_Initial.Designer.cs" t="Include" />
           <e p="20190717071844_Category.cs" t="Include" />
           <e p="20190717071844_Category.Designer.cs" t="Include" />
+          <e p="20190717110945_FixForColumName.cs" t="Include" />
+          <e p="20190717110945_FixForColumName.Designer.cs" t="Include" />
           <e p="QnbCoreDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -53,6 +55,7 @@
       <e p="qnb.repository" t="IncludeRecursive">
         <e p="Base" t="Include">
           <e p="BaseRepository.cs" t="Include" />
+          <e p="IBaseRepository.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -64,13 +67,15 @@
         </e>
         <e p="qnb.repository.csproj" t="IncludeRecursive" />
         <e p="Repository" t="Include">
+          <e p="ApplicationRepository.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
         </e>
+        <e p="RepositoryServiceExtension.cs" t="Include" />
       </e>
       <e p="qnb.sln" t="IncludeFlat" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_qnb.1580242235.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_qnb.2114547171.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>

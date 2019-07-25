@@ -3415,23 +3415,23 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj",
+      "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/qnb.data.csproj",
       "projectName": "qnb.data",
-      "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj",
+      "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/qnb.data.csproj",
       "packagesPath": "/Users/mganitombalak/.nuget/packages/",
-      "outputPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/obj/",
+      "outputPath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/mganitombalak/.nuget/NuGet/NuGet.Config"
+        "/Users/mganitombalak/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "http://localhost:8081/repository/nuget-group/": {}
       },
       "frameworks": {
         "netcoreapp2.2": {

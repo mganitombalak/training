@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.api/qnb.api.csproj",
+  "FilePath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.api/qnb.api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2941,5 +2941,6 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "qnb.api",
-  "Documents": []
+  "Documents": [],
+  "SerializationFormat": "0.1"
 }

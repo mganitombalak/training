@@ -27,7 +27,8 @@ public class QnbCoreDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder
+        if(optionsBuilder.IsConfigured) return;
+            optionsBuilder
         .UseNpgsql(QnbCoreDbContextFactory.ConnectionString, builder =>
         {
             builder.UseNodaTime();

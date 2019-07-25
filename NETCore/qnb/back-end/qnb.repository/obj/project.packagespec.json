@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/qnb.repository.csproj",
+    "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.repository/qnb.repository.csproj",
     "projectName": "qnb.repository",
-    "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/qnb.repository.csproj",
-    "outputPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.repository/obj/",
+    "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.repository/qnb.repository.csproj",
+    "outputPath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.repository/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -18,8 +18,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj": {
-            "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/qnb.data/qnb.data.csproj"
+          "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/qnb.data.csproj": {
+            "projectPath": "/Users/mganitombalak/Github/training/NETCore/qnb/back-end/qnb.data/qnb.data.csproj"
           }
         }
       }

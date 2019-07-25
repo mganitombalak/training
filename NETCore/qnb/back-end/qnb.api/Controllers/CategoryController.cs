@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,17 +11,18 @@ namespace qnb.api.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private IBaseRepository<Category,Guid> repo;
+        private IBaseRepository<Category, Guid> repo;
 
-        public CategoryController(IBaseRepository<Category,Guid> catRepo)
+        public CategoryController(IBaseRepository<Category, Guid> catRepo)
         {
             repo = catRepo;
         }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<Category>> Get()
+        public JsonResult Get()
         {
-            return repo.find(item=>!item.IsDeleted).ToList();
+            return new JsonResult(value: new {data = repo.find(item => !item.IsDeleted).ToList(), server = Dns.GetHostName()});
         }
 
         // GET api/values/5
