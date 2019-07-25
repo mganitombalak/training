@@ -4,26 +4,34 @@ import { ICarouselProp } from './ICarousel.prop';
 import CarouselItem from './carousel-item/carousel-item';
 import { ProductService } from '../../services/product-service';
 import { ICarouselState } from './ICarousel.state';
+import { IProductModel } from '../../models/IProductModel';
 
 class Carousel extends React.Component<ICarouselProp, ICarouselState>{
 
   constructor(props: ICarouselProp) {
     super(props);
-    this.state={data:[]};
+    this.state={data:[] as Array<IProductModel>};
   }
+  
   render = () => (
     <div className="ui link cards">
-      <CarouselItem />
-      <CarouselItem />
-      <CarouselItem />
-      <CarouselItem />
-      <CarouselItem />
+      {this.state.data.map(p=> 
+      <CarouselItem 
+      brand={p.brand}
+      enginePower={p.enginePower}
+      model={p.model}
+      modelYear={p.modelYear}  />)}
+      
+
     </div>
   );
 
   componentDidMount() {
     let ps = new ProductService();
-    ps.read().then(r => this.setState({data:r}))
+    ps.read().then(r => {
+      this.setState({data:r});
+      console.log(r);
+  })
       .catch(e => console.log(e));
   }
 }

@@ -7,10 +7,10 @@ export class ProductService{
     constructor(){
         Object.freeze(ProductService.baseUrl);
     }
-    read=():Promise<IProductModel>=>{
-        let resultPromise = new Promise<IProductModel>((resolve,reject)=>{
+    read=():Promise<Array<IProductModel>>=>{
+        let resultPromise = new Promise<Array<IProductModel>>((resolve,reject)=>{
             axios.get(ProductService.baseUrl)
-            .then(r=>resolve(r.data))
+            .then(r=>resolve(r.data.result as Array<IProductModel>))
             .catch(e=>reject(e));
         });
         return resultPromise;

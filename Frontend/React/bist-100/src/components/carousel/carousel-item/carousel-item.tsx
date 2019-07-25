@@ -1,17 +1,20 @@
 import React from 'react';
 import faker from 'faker/locale/tr';
-class CarouselItem extends React.Component {
+import { IProductModel } from '../../../models/IProductModel';
+class CarouselItem extends React.Component<IProductModel> {
     render = () => (
         <div className="card">
-            <div className="image"><img src={faker.image.food()}/></div>
+            <div className="image"><img src={faker.image.transport()}/></div>
             <div className="content">
-                <div className="header">{faker.name.firstName()+" "+faker.name.lastName()}</div>
-                <div className="meta"><a>Friends</a></div>
-                <div className="description">{faker.lorem.paragraph()}</div>
+                <div className="header">{this.props.brand}</div>
+                <div className="meta"><a>{this.props.model}</a></div>
+                <div className="description">
+                    {this.props.enginePower} HP
+                </div>
             </div>
             <div className="extra content">
-                <span className="right floated">Joined in {faker.date.past().getFullYear()}</span>
-                <span><i className="user icon"></i>75 Friends</span>
+                <span className="right floated">Model in {this.props.modelYear}</span>
+                <span><i className="user icon"></i>75 Likes</span>
             </div>
         </div>
             );
