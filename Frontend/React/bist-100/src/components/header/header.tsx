@@ -3,12 +3,13 @@ import './header.css'
 import Cart from './components/cart/cart';
 import Profile from './components/profile/profile';
 import { IHeaderProp } from './IHeader.prop';
+import { Link } from 'react-router-dom';
 class Header extends React.Component<IHeaderProp> {
 
     render = () => (
         <div className="ui pointing menu">
-            <a className="active item">Home</a>
-            <a className="item">Messages</a>
+            <Link to="/" className="active item">Home</Link>
+            <Link to="/testo" className="item">Messages></Link>
             <a className="item">Friends</a>
             <div className="right menu">
                 <div className="item">
