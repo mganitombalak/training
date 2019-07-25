@@ -11,7 +11,6 @@ class App extends React.Component {
        cartProp={{cartCount:3,cartTotal:63.43}}
        profile={{loggedUserId:1,loggedUserName:"Gani"}} />
       <Carousel UserName="Gani"/>
-      <Carousel UserName="Suleyman"/>
       <Footer />
     </div>
   );
