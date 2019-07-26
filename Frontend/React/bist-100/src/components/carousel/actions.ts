@@ -1,0 +1,2 @@
+export const LOAD_PRODUCT_DATA='LOAD_PRODUCT_DATA';
+

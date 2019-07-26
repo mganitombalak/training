@@ -1,11 +1,16 @@
 import React from 'react';
-import { MemoryRouter, Route, Link } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Carousel from './components/carousel/carousel';
 import Testo from './components/testo/testo';
+import { Cart } from './modules/cart/cart';
+import { createStore } from 'redux';
+import { carouselReducer } from './components/carousel/carousel-reducer';
+import { Provider } from 'react-redux';
 
+const store = createStore(carouselReducer);
 
 // const pageOne = () => (
 //   <div>Dashboard <br />
@@ -15,18 +20,22 @@ import Testo from './components/testo/testo';
 
 class App extends React.Component {
   render = () => (
-    <div className="ui container" >
-      {/* 
-      <Carousel UserName="Gani"/>
-      <Footer /> */}
-      <MemoryRouter>
+    <div>
+      <BrowserRouter>
         <Header
           cartProp={{ cartCount: 3, cartTotal: 63.43 }}
           profile={{ loggedUserId: 1, loggedUserName: "Gani" }} />
-        <Route path="/" exact component={Carousel} />
-        <Route path="/testo" component={Testo} />
-      </MemoryRouter>
-
+        <div className="ui main container">
+          <Provider store={store}>
+            <Route path="/" exact component={Carousel} />
+            <Route path="/cart" component={Cart} />
+            <Route path="/testo" component={Testo} />
+          </Provider>
+        </div>
+      </BrowserRouter>
+      <div className="ui inverted vertical footer segment">
+        <Footer />
+      </div>
     </div>
   );
 }
