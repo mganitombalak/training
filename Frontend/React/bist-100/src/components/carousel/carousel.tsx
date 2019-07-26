@@ -1,14 +1,14 @@
-import React, { Dispatch } from 'react';
+import React from 'react';
 import faker from 'faker/locale/tr';
 import { ICarouselProp } from './ICarousel.prop';
 import CarouselItem from './carousel-item/carousel-item';
 import { ProductService } from '../../services/product-service';
 import { ICarouselState } from './ICarousel.state';
 import { IProductModel } from '../../models/IProductModel';
-import { Dispatch,connect } from 'react-redux';
+import { connect } from 'react-redux';
 import { LOAD_PRODUCT_DATA } from './actions';
 
-class Carousel extends React.Component<ICarouselProp & Dispatch<null>, ICarouselState>{
+class Carousel extends React.Component<ICarouselProp, ICarouselState>{
   constructor(props: ICarouselProp) {
     super(props);
     this.state = {} as ICarouselState;
