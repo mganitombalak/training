@@ -6,16 +6,24 @@ export const ACTION_LOADDATA = 'LOAD_DATA';
 
 
 //ACTION CREATORS
-export const populateData = (filteredData,dataType) => {
+export const populateData = (filteredData, dataType) => {
     return {
         type: ACTION_POPULATE,
-        dataType:dataType,
+        dataType: dataType,
         data: filteredData
     }
 }
-export const loadData = (dataType) => {
+export const loadDataActionCreator = (dataType) => {
     return {
         type: ACTION_LOADDATA,
         dataType: dataType
+    }
+};
+
+export const getActionCreator = (dataType, action) => {
+    return {
+        type: ACTION_LOADDATA,
+        dataType: dataType,
+        data: action.data
     }
 };
