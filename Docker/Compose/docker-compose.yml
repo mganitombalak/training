@@ -4,16 +4,16 @@ services:
   mysite:
     image: drupal:latest
     networks:
-      - sqills
+      - isnet
     ports:
       - "80:80"
   mydb:
     image: postgres
     networks :
-     - sqills
+     - isnet
     ports: 
       - "5432:5432"
     environment: 
       - POSTGRES_PASSWORD=mypasswd
 networks:
-  sqills:
+  isnet:
