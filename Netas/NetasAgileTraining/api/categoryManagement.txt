@@ -1,0 +1,383 @@
+swagger: "2.0"
+info:
+  description: "This is for Netas Agile Training work"
+  version: "1.0.0"
+  title: "Category Management"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "hatkeoz@gmail.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "category.swagger.io"
+basePath: "/v1"
+tags:
+- name: "category"
+  description: "Everything about all categories"
+  externalDocs:
+    description: "Find out more"
+    url: "http://swagger.io"
+- name: "subcategory"
+  description: "Everything about all subcategories"
+schemes:
+- "http"
+paths:
+  /agileTraining/v1/category:
+    post:
+      tags:
+      - "category"
+      summary: "Add a category"
+      description: ""
+      operationId: "addCategory"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Category object that needs to be added to the store"
+        required: true
+        schema:
+          $ref: "#/definitions/Category"
+      responses:
+        201:
+          description: "Category is created successfully"
+          schema:
+            $ref: "#/definitions/CategoryResponse"
+        405:
+          description: "Method Not Supported"
+  /agileTraining/v1/category/{categoryId}:
+    put:
+      tags:
+      - "category"
+      summary: "Update an existing category"
+      description: ""
+      operationId: "updateCategory"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "category object that needs to be added to the store"
+        required: true
+        schema:
+          $ref: "#/definitions/Category"
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category"
+        required: true
+        type: "integer"
+        format: "int64"    
+      responses:
+        200:
+          description: "Category is updated successfully"
+          schema:
+            $ref: "#/definitions/CategoryResponse"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Category not found"
+        405:
+          description: "Method Not Supported"
+    get:
+      tags:
+      - "category"
+      summary: "Find category by ID"
+      description: "Returns a single category"
+      operationId: "getCategoryById"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category to return"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/Category"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Category not found"
+        405:
+          description: "Method Not Supported"
+    delete:
+      tags:
+      - "category"
+      summary: "Deletes a category"
+      description: ""
+      operationId: "deleteCategory"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "api_key"
+        in: "header"
+        required: false
+        type: "string"
+      - name: "categoryId"
+        in: "path"
+        description: "Category id to be deleted"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        204:
+          description: "No Content"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Category not found"
+        405:
+          description: "Method Not Supported"
+  /agileTraining/v1/category/{categoryId}/subcategory:
+    post:
+      tags:
+      - "subcategory"
+      summary: "Add a subcategory"
+      description: ""
+      operationId: "addSubCategory"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "SubCategory object that needs to be added to the store"
+        required: true
+        schema:
+          $ref: "#/definitions/SubCategory"
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category"
+        required: true
+        type: "integer"
+        format: "int64"    
+      responses:
+        201:
+          description: "Category is created successfully"
+          schema:
+            $ref: "#/definitions/SubCategoryResponse"
+        400:
+          description: "Bad Request"    
+        405:
+          description: "Method Not Supported"
+  /agileTraining/v1/category/:
+    get:
+      tags:
+      - "category"
+      summary: "Get all categories"
+      description: ""
+      operationId: "getAllCategorie"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "Lists categories"
+          schema:
+            $ref: "#/definitions/AllCategoriesResponse"
+        400:
+          description: "Bad Request"
+        404:
+          description: "Category/Subcategory not found"
+        405:
+          description: "Method Not Supported"         
+  /agileTraining/v1/category/{categoryId}/subcategory/{subcategoryId}:
+    put:
+      tags:
+      - "subcategory"
+      summary: "Update an existing subcategory"
+      description: ""
+      operationId: "updateSubCategory"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "subcategory object that needs to be added to the store"
+        required: true
+        schema:
+          $ref: "#/definitions/SubCategory"
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category"
+        required: true
+        type: "integer"
+        format: "int64" 
+      - name: "subcategoryId"
+        in: "path"
+        description: "ID of subcategory"
+        required: true
+        type: "integer"
+        format: "int64"  
+      responses:
+        200:
+          description: "Subcategory is updated successfully"
+          schema:
+            $ref: "#/definitions/CategoryResponse"
+        400:
+          description: "Bad Request"
+        404:
+          description: "Category/Subcategory not found"
+        405:
+          description: "Method Not Supported"
+    get:
+      tags:
+      - "subcategory"
+      summary: "Find subcategory by ID"
+      description: "Returns a single category"
+      operationId: "getSubCategoryById"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category to return"
+        required: true
+        type: "integer"
+        format: "int64"
+      - name: "subcategoryId"
+        in: "path"
+        description: "ID of subcategory"
+        required: true
+        type: "integer"
+        format: "int64"  
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/Category"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Category not found"
+        405:
+          description: "Method Not Supported"
+    delete:
+      tags:
+      - "subcategory"
+      summary: "Deletes a subcategory"
+      description: ""
+      operationId: "deleteSubCategory"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category"
+        required: true
+        type: "integer"
+        format: "int64"
+      - name: "subcategoryId"
+        in: "path"
+        description: "ID of subcategory"
+        required: true
+        type: "integer"
+        format: "int64"  
+      responses:
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Subcategory not found"
+        405:
+          description: "Method Not Supported"   
+        204:
+          description: "No Content"
+  /agileTraining/v1/category/{categoryId}/subcategory/:
+    get:
+      tags:
+      - "subcategory"
+      summary: "Get all subcategories"
+      description: ""
+      operationId: "getAllSubCategorie"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "categoryId"
+        in: "path"
+        description: "ID of category"
+        required: true
+        type: "integer"
+        format: "int64" 
+      responses:
+        200:
+          description: "Lists subcategories"
+          schema:
+            $ref: "#/definitions/AllSubCategoriesResponse"
+        400:
+          description: "Bad Request"
+        404:
+          description: "Category/Subcategory not found"
+        405:
+          description: "Method Not Supported"        
+definitions:      
+  Category:
+    type: "object"
+    properties:
+      name:
+        description: "Category name to be added to the store"
+        type: "string"
+  SubCategory:
+    type: "object"
+    properties:
+      name:
+        description: "SubCategory name to be added to the store"
+        type: "string" 
+  CategoryResponse:
+    type: "object"
+    properties:
+      name:
+        description: "Category response"
+        type: "string"
+      resourceUrl:
+        description: "Category resource url"
+        type: "string"
+  SubCategoryResponse:
+    type: "object"
+    properties:
+      name:
+        description: "Category response"
+        type: "string"
+      resourceUrl:
+        description: "Category resource url"
+        type: "string"
+  AllSubCategoriesResponse:
+      type: object
+      properties:
+        subcategoryList:
+          $ref: '#/definitions/subcategoryList'
+  subcategoryList:
+      type: object
+      properties:
+        subcategory:
+          type: array
+          items:
+            $ref: '#/definitions/SubCategoryResponse'
+  AllCategoriesResponse:
+      type: object
+      properties:
+        categoryList:
+          $ref: '#/definitions/categoryList'
+  categoryList:
+      type: object
+      properties:
+        category:
+          type: array
+          items:
+            $ref: '#/definitions/CategoryResponse'          
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"

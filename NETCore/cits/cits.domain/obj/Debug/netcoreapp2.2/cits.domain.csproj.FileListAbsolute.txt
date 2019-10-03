@@ -1,0 +1,11 @@
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netcoreapp2.2/cits.domain.deps.json
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netcoreapp2.2/cits.domain.runtimeconfig.json
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netcoreapp2.2/cits.domain.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netcoreapp2.2/cits.domain.dll
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netcoreapp2.2/cits.domain.pdb
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.dll
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netcoreapp2.2/cits.domain.pdb

@@ -1,0 +1,17 @@
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cat of model; let i = index">
+        <th scope="row">{{i}}</th>
+        <td>{{cat.name}}</td>
+        <td>Edit | Delete</td>
+      </tr>
+    
+    </tbody>
+  </table>

@@ -1,0 +1,53 @@
+@model UserLoginViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CITS | Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+        asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+        crossorigin="anonymous"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <form asp-action="IndexPost" asp-controller="Login" asp-antiforgery="true" onsubmit="return onFormSubmit()">
+          <div class="form-group">
+            <label for="username">User Name</label>
+            <input asp-for="UserName" type="text" class="form-control" id="username" aria-describedby="usernameHelp" placeholder="Enter username">
+            <small id="usernameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input asp-for="Password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input asp-for="RememberMe" type="checkbox" class="form-check-input" id="rememberme">
+            <label class="form-check-label" for="rememberme">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+        asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+        crossorigin="anonymous"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+
+</script>
+<script>
+  function onFormSubmit(event){
+    var elem=$("#username");
+    elem.val(HtmlSanitizer.SanitizeHtml(elem.val()));
+    return true;
+  }
+  </script>
+<script src="https://cdn.jsdelivr.net/gh/jitbit/HtmlSanitizer@master/HtmlSanitizer.js"></script>
+</body>
+</html>

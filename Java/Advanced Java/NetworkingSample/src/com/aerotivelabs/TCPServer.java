@@ -15,7 +15,10 @@ public class TCPServer {
         System.out.println("Opening port");
         try {
             serverSocket = new ServerSocket(PORT);
-            do{listen();}while(true);
+            do {
+                listen();
+            }
+            while(true);
         } catch (IOException e) {
             e.printStackTrace();
         }

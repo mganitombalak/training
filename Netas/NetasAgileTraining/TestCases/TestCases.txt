@@ -1,0 +1,62 @@
+UI
+
+Check that it is possible to navigate through all the products across different categories.
+Check that all the links are redirecting to correct category pages and none of the links are broken.
+Check that all the text – product, category name and product description are clearly visible.
+Check that all the images are clearly visible.
+Check that category pages have a relevant product listed specifically for the category.
+Check that subcategories of the main categories are correctly shown when main category is selected
+Check that correct count of total products is listed on the category pages.
+Check that it is possible to add subcategory for administrator for the selected category.
+Check that it is possible to remove subcategory for administrator for the selected category.
+Check that error meesagges are shown to user in understandable format and errors logged.
+Chech that user intearction within the page is collected per user and stored in the DB and start advertising per user according to this ananlysis (≧︿≦)
+
+Page loading symbol should be displayed when it's taking more than default time to load the result page.
+The total number of results should be displayed in the result grid.
+Result grids should include all the specified columns with correct values.
+Result grids should be displayed with proper column and row spacing.
+Pagination should be enabled when there are more results than the default result count per page.
+Check for Next, Previous, First and Last page pagination functionality.
+Duplicate records should not be displayed in the result grid.
+Check if all the columns are visible and horizontal scrollbar is enabled if necessary.
+
+DB
+
+Check if correct data is getting saved in the database upon successful page submit.
+Check values for columns which are not accepting null values.
+Check for data integrity. Data should be stored in single or multiple tables based on the design.
+Tables should have a primary key column.
+For every database add/update operation log should be added.
+Required table indexes should be created.
+Check if data is committed to the database only when the operation is successfully completed.
+Data should be rolled back in case of failed transactions.
+Database logical names should be given according to the database name (again this is not standard but helpful for DB maintenance).
+Check if values for table audit columns (like created date, created by, updated, updated by, is deleted, deleted data, deleted by etc.) are populated properly.
+Check if input data is not truncated while saving. Field length shown to the user on the page and in database schema should be the same.
+Check numeric fields with minimum, maximum, and float values.
+Check numeric fields with negative values (for both acceptance and non-acceptance).
+Check if the database fields are designed with the correct data type and data length.
+Check if all the table constraints like a Primary key, Foreign key etc. are implemented correctly.
+Test stored procedures and triggers with sample input data.
+Input field leading and trailing spaces should be truncated before committing data to the database.
+Null values should not be allowed for the Primary key column.
+
+Performance
+
+Check if the page load time is within the acceptable range. (Lazy Loading Images ?) 	███▒▒▒▒▒▒▒
+Check the page load on slow connections.
+Check the response time for any action under a light, normal, moderate, and heavy load conditions.
+Check performance of database stored procedures and triggers.
+Check the database query execution time.
+Check for load testing of the application.
+Check for stress testing of the application.
+Check CPU and memory usage under peak load condition.
+
+Security
+
+Check for SQL injection attacks.
+Error messages should not reveal any sensitive information.
+Check for Brute Force Attacks. 	(｡◕‿‿◕｡)
+Check if important events are logged in log files.
+Check if access privileges are implemented correctly.

@@ -61,7 +61,6 @@ public class Main {
             }
             GenerateMenu(menu, selectedMenu);
         }
-
     }
 
     private static void populateAppMenu(List<MenuItem> menuItems) {

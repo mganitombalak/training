@@ -15,7 +15,7 @@ public class HelloWorld  extends HttpServlet {
 
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 
-        res.setContentType("text/html");q
+        res.setContentType("text/html");
         res.setCharacterEncoding("UTF-8");
         PrintWriter streamWriter = res.getWriter();
         streamWriter.append("<!DOCTYPE html>");

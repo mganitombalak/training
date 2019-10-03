@@ -1,73 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c2de7cb-c744-4034-bfa1-a713c0919339" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="7c2de7cb-c744-4034-bfa1-a713c0919339" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring Boot/.idea/Spring Boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/Migrations/20190824092830_Category.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/Migrations/20190824092830_Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Controllers/FileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Controllers/LoginController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Models/FileUploadModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Models/UserLoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Views/File/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Views/Login/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/File/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Login/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/project.razor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aerotivelabs/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aerotivelabs/TCPServer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1120315197">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="16" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/TCPServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/TCPClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,70 +82,20 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/UDPServer.java" />
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/UDPClient.java" />
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/TCPClient.java" />
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/ChatWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/TCPServer.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="778" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NetworkingSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkingSample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetworkingSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkingSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetworkingSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkingSample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aerotivelabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1RNrV6YaGgalWqSRzUx96duRuWP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/mganitombalak/GitHub/NetworkingSample/src/com/aerotivelabs/TCPClient.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,13 +109,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TCPClient">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.Main" />
       <module name="NetworkingSample" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.TCPClient" />
+      <module name="NetworkingSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aerotivelabs.TCPServer" />
+      <module name="NetworkingSample" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,6 +161,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TCPServer" />
+      <item itemvalue="Application.TCPClient" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.UDPServer" />
       <item itemvalue="Application.UDPClient" />
@@ -219,132 +191,25 @@
       <workItem from="1532603497051" duration="1000" />
       <workItem from="1533729900787" duration="4345000" />
       <workItem from="1534246997868" duration="5942000" />
+      <workItem from="1569518417938" duration="821000" />
+      <workItem from="1569581530951" duration="12000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20584000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="778" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3265306" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32756132" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32756132" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/UDPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/UDPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/ChatWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/TCPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

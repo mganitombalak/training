@@ -1,0 +1,15 @@
+@model FileUploadModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+<div>
+    <form asp-action="IndexPost" asp-controller="File" enctype="multipart/form-data">
+        <input type="file" id="uploadFile" name="uploadFile"/>
+        <button type="submit">Send</button>
+    </form>
+</div>
+</body>
+</html>

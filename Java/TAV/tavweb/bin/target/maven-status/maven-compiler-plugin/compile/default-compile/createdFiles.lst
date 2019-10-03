@@ -1,0 +1,10 @@
+aero/tav/log/Logger.class
+aero/tav/config/ApplicationConfig.class
+aero/tav/cache/Cache.class
+aero/tav/log/OracleLogger.class
+aero/tav/log/ElasticLogger.class
+aero/tav/cache/DefaultCache.class
+aero/tav/MainWithClassConfig.class
+aero/tav/cache/RedisCache.class
+aero/tav/MainWithXmlConfig.class
+aero/tav/business/MyComplexBusinessObject.class

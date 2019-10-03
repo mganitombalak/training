@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, ClassNotFoundException {
 
-//        Class personClass = Person.class;
+//      Class personClass = Person.class;
         Class personClass = Class.forName("com.aerotivelabs.Person");
         System.out.println("Canonical Name:" + personClass.getCanonicalName());
         System.out.println("Package Name:" + personClass.getPackage().getName());

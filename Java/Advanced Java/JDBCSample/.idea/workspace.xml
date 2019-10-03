@@ -1,95 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfcaf85d-bbd0-4cef-a509-255b08baf0b5" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="dfcaf85d-bbd0-4cef-a509-255b08baf0b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkingSample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkingSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FileSizer/trkcll2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring Boot/.idea/Spring Boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/MyFirstServeletApp/MyFirstServeletApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/MyFirstServeletApp/src/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/MainWithClassConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/MainWithXmlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/business/MyComplexBusinessObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/cache/DefaultCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/cache/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/log/ElasticLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/log/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/java/aero/tav/log/OracleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/src/main/resources/setting.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/MainWithClassConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/MainWithXmlConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/business/MyComplexBusinessObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/cache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/cache/DefaultCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/cache/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/config/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/log/ElasticLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/log/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/aero/tav/log/OracleLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/classes/setting.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TAV/tavweb/tavweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/MT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/src/aero/tav/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/src/aero/tav/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/src/aero/tav/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MT/src/aero/tav/Squared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/.idea/.idea.cits/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/bin/Debug/netstandard2.0/cits.dal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/Debug/netstandard2.0/cits.dal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.dal/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/Migrations/20190824092830_Category.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/Migrations/20190824092830_Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Controllers/FileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Controllers/LoginController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Models/FileUploadModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Models/UserLoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Views/File/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/Views/Login/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/bin/Debug/netcoreapp2.2/cits.ui.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/File/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Login/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NETCore/cits/cits.ui/obj/Debug/netcoreapp2.2/cits.ui.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Netas/NetasAgileTraining/backend/customer-api/src/main/java/com/garanti/customerapi/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/TAV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/engines/DieselEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/engines/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/engines/Gasoline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/engines/IVehicleEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/engines/VehicleEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/vehicle/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TAV/src/aero/tav/vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/src/aero/tav/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/src/aero/tav/EntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/src/aero/tav/IEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/src/aero/tav/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/src/aero/tav/Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tav-app/tav-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/project.razor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GreateSample/src/com/aerotivelabs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GreateSample/src/com/aerotivelabs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBCSample/com/aerotivelabs/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBCSample/com/aerotivelabs/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NetworkingSample/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkingSample/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NetworkingSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkingSample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NetworkingSample/src/com/aerotivelabs/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkingSample/src/com/aerotivelabs/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReflectionSample/src/com/aerotivelabs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReflectionSample/src/com/aerotivelabs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyFirstServlet/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyFirstServlet/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/out/production/trkcll2/com/aerotivelabs/FJFolderSizeCalc$SizeOfFileTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/out/production/trkcll2/com/aerotivelabs/FJFolderSizeCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/out/production/trkcll2/com/aerotivelabs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/out/production/trkcll2/com/aerotivelabs/StdFolderSizeCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/src/com/aerotivelabs/FJFolderSizeCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/src/com/aerotivelabs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/src/com/aerotivelabs/StdFolderSizeCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trkcll2/trkcll2.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-470740753">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="11" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/aerotivelabs/Main.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="778" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JDBCSample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1Rf3H7SbQytXVqSl1i1PKq8uUQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -135,59 +243,26 @@
       <updated>1532435388015</updated>
       <workItem from="1532435389746" duration="5172000" />
       <workItem from="1534234282510" duration="4027000" />
+      <workItem from="1570044234506" duration="166000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9199000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="778" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32756132" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/aerotivelabs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>

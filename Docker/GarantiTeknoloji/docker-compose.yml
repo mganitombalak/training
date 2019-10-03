@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  webserver1:
+    image: httpd
+    networks:
+      - garanti
+    volumes:
+      - "/Users/mganitombalak/Github/training/Docker/GarantiTeknoloji/webserver1/:/usr/local/apache2/htdocs/"
+
+  webserver2:
+    image: httpd
+    networks:
+      - garanti
+    volumes:
+      - "/Users/mganitombalak/Github/training/Docker/GarantiTeknoloji/webserver2/:/usr/local/apache2/htdocs/"
+
+  loadbalancer:
+    image: nginx
+    ports:
+      - "80:80"
+    networks:
+      - garanti
+    volumes:
+      - "/Users/mganitombalak/Github/training/Docker/GarantiTeknoloji/nginx/nginx.conf:/etc/nginx/nginx.conf"
+
+networks: 
+  garanti:

@@ -1,0 +1,10 @@
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/MainWithClassConfig.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/cache/Cache.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/log/Logger.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/config/ApplicationConfig.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/cache/RedisCache.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/cache/DefaultCache.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/MainWithXmlConfig.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/log/OracleLogger.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/business/MyComplexBusinessObject.java
+/Users/mganitombalak/Github/training/Java/TAV/tavweb/src/main/java/aero/tav/log/ElasticLogger.java

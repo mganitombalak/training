@@ -1,0 +1,9 @@
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netstandard2.0/cits.domain.deps.json
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netstandard2.0/cits.domain.dll
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/bin/Debug/netstandard2.0/cits.domain.pdb
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.dll
+/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/Debug/netstandard2.0/cits.domain.pdb

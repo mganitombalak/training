@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mganitombalak/Github/training/NETCore/cits/cits.ui/cits.ui.csproj": {}
+  },
+  "projects": {
+    "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/cits.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/cits.domain.csproj",
+        "projectName": "cits.domain",
+        "projectPath": "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/cits.domain.csproj",
+        "packagesPath": "/Users/mganitombalak/.nuget/packages/",
+        "outputPath": "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mganitombalak/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://localhost:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/mganitombalak/Github/training/NETCore/cits/cits.ui/cits.ui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mganitombalak/Github/training/NETCore/cits/cits.ui/cits.ui.csproj",
+        "projectName": "cits.ui",
+        "projectPath": "/Users/mganitombalak/Github/training/NETCore/cits/cits.ui/cits.ui.csproj",
+        "packagesPath": "/Users/mganitombalak/.nuget/packages/",
+        "outputPath": "/Users/mganitombalak/Github/training/NETCore/cits/cits.ui/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mganitombalak/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://localhost:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/cits.domain.csproj": {
+                "projectPath": "/Users/mganitombalak/Github/training/NETCore/cits/cits.domain/cits.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FileSignatures": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[4.0.217, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

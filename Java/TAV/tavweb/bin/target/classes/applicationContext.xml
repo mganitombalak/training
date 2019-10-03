@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+        <context:component-scan base-package="aero.tav"></context:component-scan>
+        <context:property-placeholder location="classpath:setting.properties"></context:property-placeholder>
+        <bean id="dc" class="aero.tav.cache.DefaultCache" scope="prototype"></bean>
+        <bean id="rc" class="aero.tav.cache.RedisCache" scope="prototype"></bean>
+        <bean id="ol" class="aero.tav.log.OracleLogger" scope="prototype"></bean>
+        <bean id="el" class="aero.tav.log.ElasticLogger" scope="prototype"></bean>
+        <bean id="cbo" class="aero.tav.business.MyComplexBusinessObject" scope="prototype">
+            <constructor-arg name="logger" ref="ol"></constructor-arg>
+            <constructor-arg name="cache" ref="dc"></constructor-arg>
+            <property name="variable" value="${myVar}"></property>
+        </bean>
+</beans>
