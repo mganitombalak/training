@@ -1,0 +1,16 @@
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Action</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let c of model">
+        <th scope="row">{{c.id}}</th>
+        <td colspan="2">{{c.name}}</td>
+        <td><button (click)="onDeleteCliecked(c.id)">Sil</button></td>
+      </tr>
+    </tbody>
+  </table>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/webjars/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Delete Product</title>
+</head>
+<body>
+
+Are you sure to delete?<br>
+<form action="#" th:action="@{'/'+${entity}+'/delete'}" th:object="${product}" method="post" >
+    <input type="hidden" id="id" name="id" th:field="*{Id}"/>
+    <div class="form-group">
+        <label>Category Name</label>
+        <span id="name" th:text="*{Name}"></span>
+    </div>
+    <button type="submit" class="btn btn-danger">I'm Sure</button>
+</form>
+</body>
+</html>

@@ -14,9 +14,6 @@
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.5.RELEASE" />
-          <element id="library" level="project" name="spring-5.0.8.RELEASE" />
-          <element id="library" level="project" name="c3p0-0.9.2.1" />
-          <element id="library" level="project" name="hibernate-5.0.7" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.197" />
         </element>
       </element>
