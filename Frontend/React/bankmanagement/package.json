@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "3",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
