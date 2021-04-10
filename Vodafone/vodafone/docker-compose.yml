@@ -1,0 +1,56 @@
+version: "3"
+
+services:
+    webserver1:
+        image: httpd
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/webserver1:/usr/local/apache2/htdocs"
+        networks:
+            - voda-comp
+
+    webserver2:
+        image: httpd
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/webserver2:/usr/local/apache2/htdocs"
+        networks:
+            - voda-comp
+        depends_on:
+            - webserver1
+    webserver3:
+        image: httpd
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/webserver3:/usr/local/apache2/htdocs"
+        networks:
+            - voda-comp
+        depends_on:
+            - webserver2
+
+    webserver4:
+        image: httpd
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/webserver4:/usr/local/apache2/htdocs"
+        networks:
+            - voda-comp
+        depends_on:
+            - webserver3
+    webserver5:
+        image: httpd
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/webserver5:/usr/local/apache2/htdocs"
+        networks:
+            - voda-comp
+        depends_on:
+            - webserver4
+    lb-web:
+        image: nginx
+        volumes:
+            - "/Users/mganitombalak/github/training/Vodafone/nginx/nginx.conf:/etc/nginx/nginx.conf"
+        networks:
+            - voda-comp
+        ports:
+            - "80:80"
+        depends_on:
+            - webserver5
+
+networks:
+    voda-comp:
