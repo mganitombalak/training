@@ -1,0 +1,17 @@
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.api.deps.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.api.runtimeconfig.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.api.runtimeconfig.dev.json
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.api.dll
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.api.pdb
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csprojAssemblyReference.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csproj.CoreCompileInputs.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.RazorAssemblyInfo.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.RazorAssemblyInfo.cs
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.AssemblyInfoInputs.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.AssemblyInfo.cs
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.RazorTargetAssemblyInfo.cache
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.dll
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.pdb
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.data.dll
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/bin/Debug/netcoreapp2.2/isnet.data.pdb
+/Users/mganitombalak/Github/training/Docker/Isnet/Isnet-Core/isnet.api/obj/Debug/netcoreapp2.2/isnet.api.csproj.CopyComplete
